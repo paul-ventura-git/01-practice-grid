@@ -1,0 +1,37 @@
+.my-flex-container {
+  display: flex;
+  flex-direction: column;
+  background-color: yellow;
+
+  min-height: 100vh;
+  justify-content: center;
+}
+
+.my-row {
+  display: flex;
+  flex-direction: row;
+  background-color: blue;
+  justify-content: space-between;
+
+}
+
+.my-column {
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+  justify-content: center;
+}
+
+.my-grid-container {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: auto auto auto auto;
+  background-color: yellow;
+
+  min-height: 100vh;
+}
+
+.my-grid-item {
+  background-color: red;
+  text-align: center;
+}
