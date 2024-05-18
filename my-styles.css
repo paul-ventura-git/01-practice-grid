@@ -1,37 +1,60 @@
+body {
+  font-size: 150px;
+}
+
+/** USING FLEX
+* 1. We don't need to vertically align the text 
+* 2. For rows, we define a min-height
+* 3. For columns, we define a min-width
+*/
 .my-flex-container {
   display: flex;
   flex-direction: column;
-  background-color: yellow;
 
+  gap: 10px;
+  background-color: yellow;
+  /* Flex fills the space horizontally so we don't need to define a minimum view width, only the minimum view height*/
   min-height: 100vh;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .my-row {
   display: flex;
   flex-direction: row;
-  background-color: blue;
-  justify-content: space-between;
 
+  background-color: blue;
+
+  min-height: 33vh;
+  justify-content: space-evenly;
 }
 
 .my-column {
   display: flex;
   flex-direction: column;
+
   background-color: red;
+
+  min-width: 30vw;
   justify-content: center;
+  text-align: center;
 }
 
+/** USING GRID
+* 1. We don't need to define the view height or width of each element
+* 2. 
+*/
 .my-grid-container {
   display: grid;
-  gap: 10px;
   grid-template-columns: auto auto auto auto;
+
+  gap: 10px;
   background-color: yellow;
 
   min-height: 100vh;
 }
 
 .my-grid-item {
-  background-color: red;
+  background-color: rebeccapurple;
   text-align: center;
+  padding: 70px 0;
 }
