@@ -1,0 +1,26 @@
+body {
+
+}
+
+.bodoni-moda-400 {
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.first-color { 
+	background: #defcf9; 
+}
+	
+.second-color { 
+	background: #cadefc; 
+}
+
+.third-color { 
+	background: #c3bef0; 
+}
+
+.fourth-color { 
+	background: #cca8e9;
+}
